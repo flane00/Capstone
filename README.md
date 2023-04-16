@@ -9,7 +9,8 @@ which was generated with line touch config_capstone.yml
 The csv_out.m file is how we pulled and indexed the data from it's local directory to generate a .csv, further in that there is a depth 
 binning to integration of chlorophyll profiles.
 
-matchtable.csv is the csv from csv_out.m 
+matchtable.csv is the csv from csv_out.m (no longer included; will be 
+included once data is published). 
 
 VIIRS_2_Intchl_regression_model.ipynb : this file is the machine to compare the various regressor model 
 performances with the similar machine learning builds (scaling and splitting). This currently only includes 
