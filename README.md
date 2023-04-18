@@ -1,6 +1,12 @@
 # Capstone
 This directory is a documentation of workflow to implement a machine learning protocol for using a regression algorithm to
-predict integrated chlorophyll using matchups from VIIRS Ocean Color predictors. This project is using Spray Glider chlorophyll fluroresence from the PEACH program (soon to be published) as the target. The current build of this model is preliminary and only based on information included in the Ocean color instrument netcdf. Future versions will include matchup VIIRS SST predictors as well, which will be a easy change after the match up is complete. The idea for and background of this project comes from the reference below. 
+predict integrated chlorophyll using matchups from remote sensing predictors, which were attained via the getOC.py
+(https://github.com/OceanOptics/getOC).  
+The remote sensing predictors for this version are all from the VIIRS Ocean Color instrument netcdfs download with the getOC.py function. 
+Depth integrated Spray Glider chlorophyll fluroresence from the PEACH program (soon to be published) is the target. 
+The current build of this model is preliminary and only based on information included in the Ocean color instrument netcdf. 
+Future versions will include matchup VIIRS SST predictors as well, which will be a easy change after the match up is complete. 
+The idea for and background of this project comes from the reference below. 
  
  Sammartino, M., Buongiorno Nardelli, B., Marullo, S., & Santoleri, R. (2020). An artificial 
 neural network to infer the Mediterranean 3D chlorophyll-a and temperature fields from 
