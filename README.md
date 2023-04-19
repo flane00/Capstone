@@ -5,6 +5,8 @@ predict integrated chlorophyll using matchups from remote sensing predictors, wh
 The remote sensing predictors for this version are all from the VIIRS Ocean Color instrument netcdfs download with the getOC.py function. 
 Depth integrated Spray Glider chlorophyll fluroresence from the PEACH program (soon to be published) is the target. 
 
+The diagram below describes the workflow that sets up the data set which flows into and then condensed with csv_out.m to yield matchtable.csv. 
+
 <img width="809" alt="Screenshot 2023-04-19 at 8 58 29 AM" src="https://user-images.githubusercontent.com/123086430/233083557-fe138017-8b6c-450d-ae63-5877080255a0.png">
 
 The current build of this model is preliminary and only based on information included in the Ocean color instrument netcdf. 
