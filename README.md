@@ -34,6 +34,5 @@ VIIRS ocean color netcdf outputs (our predictors)
 -lon
 -time (in year day) 
 
-target: 
-Glider Integrated Chlorophyll. 
+Target: Glider Integrated Chlorophyll. 
 
