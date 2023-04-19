@@ -18,10 +18,9 @@ The idea for and background of this project comes from the reference below.
 neural network to infer the Mediterranean 3D chlorophyll-a and temperature fields from 
 remote sensing observations. Remote Sensing, 12(24), 4123. 
 
-Run conda activate capstone. Included in the config_capstone.ymL 
-which was generated with line touch config_capstone.yml
+config_capstone.yml: includes the environment. 
 
-The csv_out.m file is how we pulled and indexed the data from it's local directory to generate a .csv, further in that there is a depth 
+csv_out.m: is how the data is pulled and indexed from it's local directory to generate a .csv, included in that there is a depth 
 binning to integration of chlorophyll profiles.
 
 matchtable.csv is the csv from csv_out.m (no longer included; will be 
