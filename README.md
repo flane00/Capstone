@@ -1,6 +1,5 @@
 # Capstone
 This directory is a documentation of workflow to implement a machine learning protocol for using a regression algorithm to
-<<<<<<< HEAD
 predict integrated chlorophyll using matchups from remote sensing predictors, which were attained via the getOC.py
 (https://github.com/OceanOptics/getOC).  
 The remote sensing predictors for this version are all from the VIIRS Ocean Color instrument netcdfs download with the getOC.py function. 
@@ -11,25 +10,13 @@ match-pixel.m is not included at this time because it is built for the unpublish
 
 <img width="809" alt="workflow_schematic" src="https://user-images.githubusercontent.com/123086430/233086804-bd519f1f-404a-436a-aee1-27a108298414.png">
 
-The current build of this model is preliminary and only based on information included in the Ocean color instrument netcdf. 
-Future versions will include matchup VIIRS SST predictors as well, which will be a easy change after the match up is complete. 
-=======
-predict integrated chlorophyll using matchups from VIIRS Ocean Color predictors.
-This project is using Spray Glider chlorophyll fluroresence from the PEACH program (soon to be published) as the target.
-The current build of this model is preliminary and only based on information included in the Ocean color instrument netcdf.
-Future versions will include matchup VIIRS SST predictors as well, which will be a easy change after the match up is complete.
->>>>>>> af407ef (updating readme)
 The idea for and background of this project comes from the reference below. 
  
 Sammartino, M., Buongiorno Nardelli, B., Marullo, S., & Santoleri, R. (2020). An artificial 
 neural network to infer the Mediterranean 3D chlorophyll-a and temperature fields from 
 remote sensing observations. Remote Sensing, 12(24), 4123. 
 
-<<<<<<< HEAD
-config_capstone.yml: includes the environment. 
-=======
-The environment file config_capstone.yml includes all dependencies to run this script. 
->>>>>>> af407ef (updating readme)
+config_capstone.yml: includes all environmental dependencies to run this script. 
 
 csv_out.m: is how the data is pulled and indexed from it's local directory to generate a .csv, included in that there is a depth 
 binning to integration of chlorophyll profiles.
