@@ -1,10 +1,9 @@
 # Capstone
 This directory is a documentation of a project workflow to implement a machine learning protocol for using a regression algorithm to
-predict integrated chlorophyll using matchups from remote sensing predictors, which were attained via the getOC.py
-(https://github.com/OceanOptics/getOC).  
+predict integrated chlorophyll using matchups from remote sensing predictors.
 
 Data:
-The remote sensing predictors for this version are all from the VIIRS Ocean Color instrument netcdfs download with the getOC.py function. Depth integrated Spray Glider chlorophyll fluroresence from the PEACH program (soon to be published) is the target, integrated chlorophyll. 
+The remote sensing predictors for this version are all from the VIIRS Ocean Color instrument netcdfs download with the getOC.py function, (https://github.com/OceanOptics/getOC). Depth integrated Spray Glider chlorophyll fluroresence from the PEACH program (soon to be published) is the target, integrated chlorophyll. 
 
 Notes and intentions: 
 It's worth noting that these regressors do not perform at this time to confidently predicted integrated chlorophyll from ocean color information alone (highest accuracy is Rsq=0.6, predictions vs testing set). Furthermore, the capstone aspect is that this is a preliminary template which does not include sea surface temperature remote sensing predictor in addition to what is included here (see bottom for list of predictors). Because of need for more storage to perform colocation of SST (in addition to ocean color match up), we will rebuild this project in a high performance computing cluster. The idea for and background of this project stems from references like the one below and the outcome it's completion would be a novel result in the region of this dataset. 
